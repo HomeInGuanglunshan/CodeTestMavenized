@@ -1,0 +1,5 @@
+、Source并不是Targetable的实现类
+、Adapter虽然是Targetable的实现类，但是只是实现了method2，而且不必声明为Abstract
+	、推断这和extends Source有关
+、“适配器模式将某个类的接口转换成客户端期望的另一个接口表示，目的是消除由于接口不匹配所造成的类的兼容性问题”
+	、https://www.cnblogs.com/maowang1991/archive/2013/04/15/3023236.html

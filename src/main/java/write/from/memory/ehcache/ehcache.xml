@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<!-- 磁盘存储，将缓存中暂时不使用的对象，转移到硬盘 path：存储路径 -->
+	<diskStore path="d:\数据库aa" />
+	<!-- defaultCache:默认的缓存配置信息。不加特殊说明。所有对象 按照此配置项处理 maxElementsInMemory：设置了缓存的上限最多存储多少个记录对象 -->
+	<defaultCache maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true"></defaultCache>
+
+	<cache name="mvc" maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true"></cache>
+</ehcache>
